@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
@@ -59,17 +59,24 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v10.1">
-      <Name>DevExpress.Data.v10.1</Name>
+    <Reference Include="DevExpress.Printing.v13.1.Core">
+      <Name>DevExpress.Printing.v13.1.Core</Name>
     </Reference>
-    <Reference Include="DevExpress.Utils.v10.1">
-      <Name>DevExpress.Utils.v10.1</Name>
+    <Reference Include="DevExpress.Data.v13.1">
+      <Name>DevExpress.Data.v13.1</Name>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v10.1">
-      <Name>DevExpress.XtraEditors.v10.1</Name>
+    <Reference Include="DevExpress.Utils.v13.1">
+      <Name>DevExpress.Utils.v13.1</Name>
     </Reference>
-    <Reference Include="DevExpress.XtraGrid.v10.1">
-      <Name>DevExpress.XtraGrid.v10.1</Name>
+    <Reference Include="DevExpress.XtraEditors.v13.1">
+      <Name>DevExpress.XtraEditors.v13.1</Name>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.1">
+      <Name>DevExpress.XtraPrinting.v13.1</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.1">
+      <Name>DevExpress.XtraGrid.v13.1</Name>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
